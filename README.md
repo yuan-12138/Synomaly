@@ -33,4 +33,4 @@ We evaluate on three benchmark datasets:
 <p><b>Fig. 4:</b> Visual comparison between images generated using multi-stage diffusion process and single-stage diffusion process with DDPM trained using Synomaly noise. The images are arranged in the order of input image, noised image, and denoised image. (a), (b), (c), and (d) depict images generated at each stage of the multi-stage diffusion process. (e), (f), (g), and (h) represent the corresponding images generated using the single-stage diffusion process.</p>
 </div>
 
-The pretrained model can be accessed via this link: https://drive.google.com/file/d/1j6PZBbQA5PEUmhjrzixC4kDYkpdlO2p0/view?usp=sharing
+The trained model can be accessed via this link: https://drive.google.com/file/d/1j6PZBbQA5PEUmhjrzixC4kDYkpdlO2p0/view?usp=sharing
