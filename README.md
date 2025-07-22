@@ -5,11 +5,21 @@ Anomaly detection in medical imaging plays a crucial role in identifying patholo
 <div align="center">
 <img src=images/Overview.png  width=80%/>
 </div>
-Overview of the proposed approach.(a) illustrates the training process of the proposed unsupervised anomaly detection approach, where Synomaly noise is utilized to corrupt the healthy image. (b) depicts the inference processs, in which Gaussian noise is applied directly to the anomalous images. Since the trained model has already been exposed to similar synthetic anomalies during training, it can efficiently erase the abnormalities. Multi-stage diffusion process is implemented to conserve fine details of the original image, thus increasing the anomaly detection accuracy.
+Fig 1: Overview of the proposed approach.(a) illustrates the training process of the proposed unsupervised anomaly detection approach, where Synomaly noise is utilized to corrupt the healthy image. (b) depicts the inference processs, in which Gaussian noise is applied directly to the anomalous images. Since the trained model has already been exposed to similar synthetic anomalies during training, it can efficiently erase the abnormalities. Multi-stage diffusion process is implemented to conserve fine details of the original image, thus increasing the anomaly detection accuracy.
 
 <div align="center">
-<img src=images/Overview.png  width=80%/>
+<img src=images/Multi_stage_diffusion_process.png  width=60%/>
 </div>
+Fig 2: Multi-stage diffusion process with masked fusion.
 
+<div align="center">
+<img src=images/experiments_results.png  width=80%/>
+</div>
+Fig 3: Samples of anomaly segmentation results using different unsupervised methods.
+
+<div align="center">
+<img src=images/multi_stage_results.png  width=80%/>
+</div>
+Fig 4: Visual comparison between images generated using multi-stage diffusion process and single-stage diffusion process with DDPM trained using Synomaly noise. The images are arranged in the order of input image, noised image, and denoised image. (a), (b), (c), and (d) depict images generated at each stage of the multi-stage diffusion process. (e), (f), (g), and (h) represent the corresponding images generated using the single-stage diffusion process.
 
 The pretrained model can be accessed via this link: https://drive.google.com/file/d/1j6PZBbQA5PEUmhjrzixC4kDYkpdlO2p0/view?usp=sharing
