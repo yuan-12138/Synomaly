@@ -1,4 +1,4 @@
-# Synomaly Noise and Multi-Stage Diffusion: A Novel Approach for Unsupervised Anomaly Detection in Medical Images
+## Synomaly Noise and Multi-Stage Diffusion: A Novel Approach for Unsupervised Anomaly Detection in Medical Images
 <div align="center">
 <img src=Overview.png  width=80%/>
 </div>
