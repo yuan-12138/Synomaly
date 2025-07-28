@@ -1,0 +1,30 @@
+{
+  "dataset": "ultrasound",
+  "epochs": 2000,
+  "batch_size": 8,
+  "num_training_data": 10000,
+  "noise_steps": 1000,
+  "beta_schedule": "cosine",
+  "noise_fn": "synomaly",
+  "noise_params": {
+    "anomaly_sigma": 7,
+    "anomaly_threshold": 150,
+    "anomaly_offset": 0.5,
+    "anomaly_direction": 1
+  },
+
+  "lr": 1e-5,
+  "lr_weight_decay": 0.0,
+  "loss-type": "vlb",
+  "loss_weight": "none",
+
+  "img_size": 128,
+  "in_channels": 1,
+  "model_channels": 128,
+  "num_res_blocks": 2,
+  "attention_resolutions":"32,16,8",
+  "dropout": 0.0,
+  "channel_mult": "",
+  "num_heads": 2,
+  "num_head_channels": 64
+}
