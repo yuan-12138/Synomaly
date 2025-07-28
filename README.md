@@ -34,4 +34,4 @@ We evaluate on three benchmark datasets:
 </div>
 
 ### Models
-The trained models can be accessed via this link: https://drive.google.com/file/d/1j6PZBbQA5PEUmhjrzixC4kDYkpdlO2p0/view?usp=sharing
+The trained models can be accessed via this link: https://drive.google.com/file/d/1Bx6fEKPalRhh4vcL9kMEj4ntfkRZdMNT/view?usp=sharing
